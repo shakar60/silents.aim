@@ -29,7 +29,7 @@ _G.SilentAim = {
     --[[VISUALS]] -- BTW THESE JUST SHOW U WHERE ITS AIMING
     Dot = true,
     DotColor = Color3.fromRGB(31,255,0),
-    Tracer = true,
+    Tracer = false,
     TracerColor = Color3.fromRGB(0,39,255),
     Highlight = false,
     HighlightColor = Color3.fromRGB(255,0,0),
