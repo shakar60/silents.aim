@@ -28,11 +28,11 @@ _G.SilentAim = {
     DownCheck = true,
     --[[VISUALS]] -- BTW THESE JUST SHOW U WHERE ITS AIMING
     Dot = true,
-    DotColor = Color3.fromRGB(119,0,255),
-    Tracer = false,
+    DotColor = Color3.fromRGB(31,255,0),
+    Tracer = true,
     TracerColor = Color3.fromRGB(119,0,255),
-    Highlight = false,
-    HighlightColor = Color3.fromRGB(119,0,255),
+    Highlight = true,
+    HighlightColor = Color3.fromRGB(255,0,0),
     --[[EXTRAS]]
     RandomizeShots = false,
     XRandomization = 500, -- x,y, and z are all divided by 1000 btw so its not gonna completely fucking shoot at the sky if u do 500
