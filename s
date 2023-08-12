@@ -17,7 +17,7 @@ _G.SilentAim = {
     AntiGround = true,
     ReversePrediction = false,
     --[[SELECTION]]
-    FOVCheck = true, -- false just checks for closest player to ur cursor btw
+    FOVCheck = false, -- false just checks for closest player to ur cursor btw
     FOVColor = Color3.fromRGB(119,0,255),
     FOVSize = 90,
     FOVThickness = 2,
@@ -31,7 +31,7 @@ _G.SilentAim = {
     DotColor = Color3.fromRGB(31,255,0),
     Tracer = true,
     TracerColor = Color3.fromRGB(0,39,255),
-    Highlight = true,
+    Highlight = false,
     HighlightColor = Color3.fromRGB(255,0,0),
     --[[EXTRAS]]
     RandomizeShots = false,
