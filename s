@@ -10,7 +10,7 @@ _G.SilentAim = {
     AutoPrediction = false,
     Notifications = false,
     --[[RESOLVER (EXPERIMENTAL VERSION)]]
-    ResolverV1 = false, -- false uses HumanoidRootPart/Torso velocity | true uses ResolverAimpart velocity
+    ResolverV1 = true, -- false uses HumanoidRootPart/Torso velocity | true uses ResolverAimpart velocity
     ResolverDelay = 0,
     ResolverAimpart = "HumanoidRootPart",
     AntiSky = false,
@@ -19,7 +19,7 @@ _G.SilentAim = {
     --[[SELECTION]]
     FOVCheck = true, -- false just checks for closest player to ur cursor btw
     FOVColor = Color3.fromRGB(119,0,255),
-    FOVSize = 88,
+    FOVSize = 90,
     FOVThickness = 2,
     FOVFilled = false,
     FOVTransparency = 0,
@@ -27,7 +27,7 @@ _G.SilentAim = {
     VisibleCheck = true,
     DownCheck = true,
     --[[VISUALS]] -- BTW THESE JUST SHOW U WHERE ITS AIMING
-    Dot = false,
+    Dot = true,
     DotColor = Color3.fromRGB(119,0,255),
     Tracer = false,
     TracerColor = Color3.fromRGB(119,0,255),
