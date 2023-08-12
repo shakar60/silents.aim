@@ -7,13 +7,13 @@ _G.SilentAim = {
     MainPart = "HumanoidRootPart",
     KeyMode = "Toggle", -- "Hold",
     Prediction = .115,
-    AutoPrediction = false,
+    AutoPrediction = true,
     Notifications = false,
     --[[RESOLVER (EXPERIMENTAL VERSION)]]
-    ResolverV1 = true, -- false uses HumanoidRootPart/Torso velocity | true uses ResolverAimpart velocity
+    ResolverV1 = false, -- false uses HumanoidRootPart/Torso velocity | true uses ResolverAimpart velocity
     ResolverDelay = 0,
     ResolverAimpart = "HumanoidRootPart",
-    AntiSky = false,
+    AntiSky = true,
     AntiGround = true,
     ReversePrediction = false,
     --[[SELECTION]]
@@ -30,7 +30,7 @@ _G.SilentAim = {
     Dot = true,
     DotColor = Color3.fromRGB(31,255,0),
     Tracer = true,
-    TracerColor = Color3.fromRGB(119,0,255),
+    TracerColor = Color3.fromRGB(0,39,255),
     Highlight = true,
     HighlightColor = Color3.fromRGB(255,0,0),
     --[[EXTRAS]]
