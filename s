@@ -2,9 +2,9 @@ _G.SilentAim = {
     --[[MAIN]]
     AimingMode = "Index", -- "Namecall" or "Index" || CANNOT BE CHANGED MID GAME 
     Key = "",
-    AimParts = {"Head"},
+    AimParts = {"All"},
     -- Aimparts = {"Head","UpperTorso","HumanoidRootPart","LowerTorso","LeftHand","RightHand","LeftLowerArm","RightLowerArm","LeftUpperArm","RightUpperArm","LeftFoot","LeftLowerLeg","LeftUpperLeg","RightLowerLeg","RightFoot","RightUpperLeg"},
-    MainPart = "Head",
+    MainPart = "UpperTorso",
     KeyMode = "Toggle", -- "Hold",
     Prediction = .115,
     AutoPrediction = true, -- Do false For Your Own Prediction
