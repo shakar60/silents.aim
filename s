@@ -1,7 +1,7 @@
 _G.SilentAim = {
     --[[MAIN]]
     AimingMode = "Index", -- "Namecall" or "Index" || CANNOT BE CHANGED MID GAME 
-    Key = "Q",
+    Key = "q",
     AimParts = {"All"},
     -- Aimparts = {"Head","UpperTorso","HumanoidRootPart","LowerTorso","LeftHand","RightHand","LeftLowerArm","RightLowerArm","LeftUpperArm","RightUpperArm","LeftFoot","LeftLowerLeg","LeftUpperLeg","RightLowerLeg","RightFoot","RightUpperLeg"},
     MainPart = "UpperTorso",
