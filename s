@@ -1,24 +1,24 @@
 _G.SilentAim = {
     --[[MAIN]]
     AimingMode = "Index", -- "Namecall" or "Index" || CANNOT BE CHANGED MID GAME 
-    Key = "",
+    Key = "Q",
     AimParts = {"All"},
     -- Aimparts = {"Head","UpperTorso","HumanoidRootPart","LowerTorso","LeftHand","RightHand","LeftLowerArm","RightLowerArm","LeftUpperArm","RightUpperArm","LeftFoot","LeftLowerLeg","LeftUpperLeg","RightLowerLeg","RightFoot","RightUpperLeg"},
-    MainPart = "HumanoidRootPart",
+    MainPart = "UpperTorso",
     KeyMode = "Toggle", -- "Hold",
     Prediction = .115,
-    AutoPrediction = true,
+    AutoPrediction = false, -- Do true For Auto Prediction
     Notifications = false,
     --[[RESOLVER (EXPERIMENTAL VERSION)]]
     ResolverV1 = false, -- false uses HumanoidRootPart/Torso velocity | true uses ResolverAimpart velocity
     ResolverDelay = 0,
-    ResolverAimpart = "HumanoidRootPart",
+    ResolverAimpart = "Head",
     AntiSky = true,
     AntiGround = true,
     ReversePrediction = false,
     --[[SELECTION]]
-    FOVCheck = false, -- false just checks for closest player to ur cursor btw
-    FOVColor = Color3.fromRGB(119,0,255),
+    FOVCheck = true, -- false just checks for closest player to ur cursor btw
+    FOVColor = Color3.fromRGB(31,255,0),
     FOVSize = 90,
     FOVThickness = 2,
     FOVFilled = false,
