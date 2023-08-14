@@ -19,8 +19,8 @@ _G.SilentAim = {
     --[[SELECTION]]
     FOVCheck = true, -- false just checks for closest player to ur cursor btw
     FOVColor = Color3.fromRGB(31,255,0),
-    FOVSize = 80,
-    FOVThickness = 2,
+    FOVSize = 100,
+    FOVThickness = 3,
     FOVFilled = false,
     FOVTransparency = 0,
     DistancePriority = true,
